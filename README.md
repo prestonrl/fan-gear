@@ -4,7 +4,7 @@
 
 ## Description
 
-An improved e-commerce site to allow bespoke vendors of Indiana Jones gear to sell their products to fans. 
+An improved e-commerce site to allow bespoke makers of Indiana Jones gear to sell their products to fans. 
 </br></br>
 
 ---
