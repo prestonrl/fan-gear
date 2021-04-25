@@ -7,7 +7,7 @@ function Login() {
         <form className="form-s">
             <div className="container">
                 <h1 className="text-color text-center Jones">Login</h1>
-                <p className="Jones">Please fill in this form to create an account.</p>
+
                 <label className="Jones" for="email"><b>Email:</b></label><br></br>
                 <input type="text" className="input-s" placeholder="Enter Email" name="email" required></input><br></br>
 
