@@ -31,7 +31,7 @@ function App() {
 
 const renderPage = () => {
   switch (currentPage) {
-    case "About Me":
+    case "About":
       return <About />;
     case "Login":
       return <Login />;
@@ -57,7 +57,6 @@ const renderPage = () => {
               <div>{renderPage()}</div>
             </nav>
             <Switch>
-              <Route exact path="/" component={Home} />
             </Switch>
           </StoreProvider>
         </div>

@@ -17,7 +17,7 @@ main {
   --primary: #8c54ff;
   --secondary: #F3A847;
   --tertiary: #B12704;
-  --light: #d8d8d8;
+  --light: #f8eded;
   --dark: #000000;
   --darker: #111111;
   --error: rgb(228, 46, 1);
@@ -43,7 +43,7 @@ body {
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: .1em;
-  background: var(--light);
+  background: #ebd5a0;
   font-family: 'Poiret One', cursive;
 
 }
@@ -98,7 +98,7 @@ a {
 
 
 header {
-  background-color: rgb(66, 0, 0);
+  background-color: #97583f;
 }
 
 header a {
@@ -137,11 +137,12 @@ span[role="img"] {
 
 form {
   width: 40%;
+  padding-bottom: 40px;
 }
 
 input {
   font-size: 1rem;
-  padding: 0.25rem;
+  padding-bottom: 10px;
   border: 1px solid var(--dark);
   outline: none;
   border-radius: 3px;
@@ -229,6 +230,7 @@ textarea {
 .my-2 {
   margin-top: var(--spacing-two);
   margin-bottom: var(--spacing-two);
+
 }
 
 .my-5 {
@@ -320,6 +322,7 @@ a {
   color: var(--secondary);
 }
 
+
 .text-color {
   color: rgb(0, 0, 0);
 }
@@ -345,25 +348,6 @@ a {
   border-bottom: 3px solid rgb(66, 0, 0);
 }
 
-.port-style {
-  display: flex;
-  margin: auto;
-  width: 70%;
-  height: 100%;
-  margin-bottom: 90px;
-  color: (66, 0, 0);
-  border-bottom: 3px solid rgb(66, 0, 0);
-}
-
-.lang-known {
-  display: flex;
-  margin: auto;
-  width: 70%;
-  height: 100%;
-  margin-bottom: 10px;
-  color: (66, 0, 0);
-  border-bottom: 3px solid rgb(66, 0, 0);
-}
 
 .contact-styling {
   display: flex;
@@ -381,6 +365,20 @@ a {
   margin: auto;
   width: 70%;
   height: 100%;
+  background-color: #f8eded;
+  border: .5px solid rgb(66, 0, 0);
+  border-radius: 5px;
+  box-shadow: 3px 5px darkgray;
+  margin-bottom: 30px;
+}
+
+.form-a {
+  padding-top: 10px;
+  padding-left: 15px;
+  margin: auto;
+  width: 70%;
+  height: 100%;
+  background-color: #f8eded;
   border: .5px solid rgb(66, 0, 0);
   border-radius: 5px;
   box-shadow: 3px 5px darkgray;
@@ -394,12 +392,13 @@ a {
 .input-s {
   width: 70%;
   border: 1px solid;
-  padding: 5px;
+  margin-bottom: 15px;
 }
 
 .btn {
   width: 70%;
-  background-color: rgb(66, 0, 0);
+  background-color: #97583f;
+  margin-top: 15px;
 }
 
 .btn:hover {

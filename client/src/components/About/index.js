@@ -7,8 +7,8 @@ function About() {
         <section className="my-5" >
                         <h1 id="about" className="text-color Jones about-styling">About us</h1>
                         
-            <div className="my-2 ">
-                <p className="text-color Jones center-spacing">
+            <div className="form-a">
+                <p className="text-color text-center Jones">
                 Filler text
                 </p>
             </div>

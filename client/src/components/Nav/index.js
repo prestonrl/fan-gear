@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function Nav(props) {
 
-    const tabs = ["Home", "Login", "About", "Signup"]
+    const tabs = ["Home","About", "Login", "Signup"]
 
     function showNavigation() {
         if (Auth.loggedIn()) {
@@ -45,14 +45,14 @@ function Nav(props) {
     return (
 <header className="flex-row flex-end px-2 header-color Jones">
 <h1>
-                <Link className="Jones" to="/">
+                <Link  className="Jones" to="/">
                     <span role="img" aria-label="shopping bag">🧥</span>
                     Steele & Jones
                 </Link>
             </h1>
 
   <div>
-    <ul className="flex-row flex-start">
+    <ul className="flex-row flex-end">
       {tabs.map((tab) => (
         <li className="mx-2" key={tab}>
           <a
