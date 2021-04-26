@@ -79,7 +79,7 @@ db.once('open', async () => {
             quantity: 30
         },
         {
-            name: 'CAZADORA \'38 -Last Crusade-',
+            name: 'Cazadora \'38 -Last Crusade-',
             category: categories[1]._id,
             description:
                 'Correct lambskin leather -color and texture- or "Chocolate Premium Horsehide", correct lining, correct zipper, snaps and buckles, and distressing if wanted.',
