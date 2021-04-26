@@ -51,7 +51,7 @@ function Nav(props) {
     }
 
     return (
-        <header className="flex-row flex-end px-2 header-color Jones">
+        <header className="flex-row space-between px-2 header-color Jones">
             <h1>
                 <Link  className="Jones" to="/">
                     <span role="img" aria-label="shopping bag">🧥</span>
