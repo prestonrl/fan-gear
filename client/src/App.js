@@ -1,13 +1,14 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Nav from './components/Nav';
 import About from './components/About';
 import Home from './components/Home';
 import Login from './components/Login';
 import Signup from './components/Signup';
+import Detail from './components/Detail';
 
 
 
-import { BrowserRouter as Router, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { ApolloProvider } from '@apollo/react-hooks';
 import ApolloClient from 'apollo-boost';
 
@@ -27,37 +28,18 @@ const client = new ApolloClient({
 })
 
 function App() {
-
-  const [currentPage, handlePageChange] = useState("Home");
-
-const renderPage = () => {
-  switch (currentPage) {
-    case "About":
-      return <About />;
-    case "Login":
-      return <Login />;
-    case "Signup":
-      return <Signup />;
-    default:
-      return <Home />;
-  }
-};
-
-
   return (
     <ApolloProvider client={client}>
       <Router>
         <div>
           <StoreProvider>
-            <nav>
-              <Nav
-                currentPage={currentPage}
-                handlePageChange={handlePageChange}
-              />
-
-              <div>{renderPage()}</div>
-            </nav>
+            <Nav />
             <Switch>
+              <Route exact path="/" component={Home} />
+              <Route exact path="/about" component={About} />
+              <Route exact path="/login" component={Login} />
+              <Route exact path="/signup" component={Signup} />
+              <Route exact path="/products/:id" component={Detail} />
             </Switch>
           </StoreProvider>
         </div>
