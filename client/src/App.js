@@ -4,10 +4,10 @@ import About from './components/About';
 import Home from './components/Home';
 import Login from './components/Login';
 import Signup from './components/Signup';
-import CategoryMenu from "./components/CategoryMenu";
 
 
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+
+import { BrowserRouter as Router, Switch } from "react-router-dom";
 import { ApolloProvider } from '@apollo/react-hooks';
 import ApolloClient from 'apollo-boost';
 
@@ -36,10 +36,10 @@ const renderPage = () => {
       return <About />;
     case "Login":
       return <Login />;
-    case "Home":
-      return <Home />;
     case "Signup":
       return <Signup />;
+    default:
+      return <Home />;
   }
 };
 
