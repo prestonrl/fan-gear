@@ -4,6 +4,7 @@ import About from './components/About';
 import Home from './components/Home';
 import Login from './components/Login';
 import Signup from './components/Signup';
+import CategoryMenu from "./components/CategoryMenu";
 
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
