@@ -404,3 +404,20 @@ a {
 .btn:hover {
   color: #4073ff;
 }
+
+span {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.about-images {
+  height: 900px;
+  width: 500px;
+  margin-left: 5%;
+  margin-left: 5%;
+}
+
+.center-image {
+  margin-left: 25%;
+  margin-right: 25%;
+}
