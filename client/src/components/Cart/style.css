@@ -1,5 +1,6 @@
 .cart {
   position: fixed;
+  margin-top: 78px;
   top: 0;
   right: 0;
   min-width: 20%;
@@ -33,6 +34,7 @@
 
 .cart-closed {
   position: fixed;
+  margin-top: 65px;
   top: 2%;
   right: 1%;
   font-size: 2rem;
