@@ -126,7 +126,7 @@ button[disabled] {
 }
 
 img {
-  max-width: 100%;
+  max-width: 70%;
 }
 
 span[role="img"] {
@@ -175,6 +175,21 @@ textarea {
 .underline {
 
   border-bottom: 2px solid black;
+  border-right: 2px solid black;
+  border-radius: 50%;
+}
+
+.underline-2 {
+
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+  box-shadow: 3px 5px darkgray;
+  width: 70%;
+}
+
+.hover:hover {
+  color: #F3A847;
+
 }
 .container {
   width: 85%;
@@ -331,6 +346,10 @@ a {
 	
 }
 
+.text-center {
+width: 70%;
+}
+
 .navActive {
   color: var(--secondary);
 }
@@ -407,6 +426,20 @@ a {
   margin-top: 200px;
 }
 
+.form-p {
+  padding-top: 18px;
+  padding-left: 12%;
+  margin: auto;
+  width: 50%;
+  height: 100%;
+  background-color: #f8eded;
+  border: .5px solid rgb(66, 0, 0);
+  border-radius: 5px;
+  box-shadow: 3px 5px darkgray;
+  margin-bottom: 30px;
+  margin-top: 95px;
+}
+
 .form-a {
   padding-top: 10px;
   padding-left: 15px;
@@ -437,9 +470,9 @@ a {
   width: 70%;
   background-color: #97583f;
   margin-top: 15px;
-  color: #F3A847;
+  color: #000000;
 }
 
 .btn:hover {
-  color: #000000;
+  color: #F3A847;
 }
