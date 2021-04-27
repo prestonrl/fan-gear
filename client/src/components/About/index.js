@@ -12,6 +12,7 @@ function About() {
         
         <section className="my-5" >
             <h1 id="about" className="text-color Jones about-styling">About us</h1>
+            <h2 className="text-color Jones form-s">"Hecho por fans, para fans"</h2>
 
             <div className="form-a">
                 <p className="text-color text-center Jones">
@@ -20,35 +21,35 @@ function About() {
                 just for the fun, and the knowledge we acquire through our own experience in the making. 
                 </p>
 
-                <img class="center-image" src={about1} alt=""></img>
+                <img className="center-image" src={about1} alt=""></img>
+            </div>
+
+            <div className="form-a about-section">
+                <div className="about-paragraphs">
+                    <p className="text-color text-center Jones">
+                    Our goal is to offer the best possible products at the most reasonable price, 
+                    that should be high quality and also long lasting pieces of gear.
+                    </p>
+
+                    <p className="text-color text-center Jones">
+                    We started enjoying this hobby in 2006 through the ‘Comunidad Fan Española de Indiana Jones’ Forum, 
+                    trying to make hats that look like those seen in the movies, but that should also be durable and offered at the lowest price 
+                    possible. Since then, the “Explorador” fedora has been our best seller, which has been improved along time 
+                    thanks to the help of many members of the Spanish Indy Forum, having hundreds of satisfied customers both in Europe and America.
+                    </p>
+
+                    <p className="text-color text-center Jones">
+                    Live the adventure of your life, with your <span>EXPLORADOR</span> fedora!
+                    </p>
+                </div>
+                    <img className="float-image" src={about6} alt=""></img>
             </div>
 
             <div className="form-a">
-                <p className="text-color text-center Jones">
-                Our goal is to offer the best possible products at the most reasonable price, 
-                that should be high quality and also long lasting pieces of gear. 
-                </p>
-
-                <p className="text-color text-center Jones">
-                We started enjoying this hobby in 2006 through the ‘Comunidad Fan Española de Indiana Jones’ Forum, 
-                trying to make hats that look like those seen in the movies, but that should also be durable and offered at the lowest price 
-                possible. Since then, the “Explorador” fedora has been our best seller, which has been improved along time 
-                thanks to the help of many members of the Spanish Indy Forum, having hundreds of satisfied customers both in Europe and America.
-                </p>
-
-                <p className="text-color text-center Jones">
-                Live the adventure of your life, with your <span>EXPLORADOR</span> fedora!
-                </p>
-
-                
-            </div>
-
-            <div className="form-a">
-                <img class ="about-images" src={about3} alt=""></img>
-                <img class ="about-images" src={about4} alt=""></img>
-                <img class ="about-images" src={about2} alt=""></img>
-                <img class ="about-images" src={about5} alt=""></img>
-                <img class ="center-image" src={about6} alt=""></img>
+                <img className ="about-images" src={about3} alt=""></img>
+                <img className ="about-images" src={about4} alt=""></img>
+                <img className ="about-images" src={about2} alt=""></img>
+                <img className ="about-images" src={about5} alt=""></img>
             </div>
         </section>
     )
