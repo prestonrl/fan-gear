@@ -3,10 +3,10 @@ import gql from 'graphql-tag';
 export const LOGIN = gql`
     mutation login($email: String!, $password: String!) {
         login(email: $email, password: $password) {
-        token
-        user {
-            _id
-        }
+            token
+            user {
+                _id
+            }
         }
     }
 `;
@@ -15,17 +15,17 @@ export const LOGIN = gql`
 export const ADD_ORDER = gql`
     mutation addOrder($products: [ID]!) {
         addOrder(products: $products) {
-        purchaseDate
-        products {
-            _id
-        name
-        description
-        price
-        quantity
-        category {
-            name
-        } 
-        }
+            purchaseDate
+                products {
+                    _id
+                name
+                description
+                price
+                quantity
+                category {
+                    name
+                } 
+            }
         }
     }
 `;
