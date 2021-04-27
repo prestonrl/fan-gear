@@ -43,11 +43,11 @@ function ProductList() {
 
     return (
         <div className="my-2">
-        <h2>Our Products:</h2>
+        <h2 className="contact-styling text-color Jones">Our Products:</h2>
         {state.products.length ? (
-            <div className="flex-row">
+            <div className="flex-row product-spacing">
                 {filterProducts().map(product => (
-                    <ProductItem
+                    <ProductItem 
                     key= {product._id}
                     _id={product._id}
                     image={product.image}
@@ -61,7 +61,7 @@ function ProductList() {
             <h3>You haven't added any products yet!</h3>
         )}
         { loading ? 
-        <img src={spinner} alt="loading" />: null}
+        <img src={spinner} className="img-align img-thumbnail" alt="loading" />: null}
         </div>
     );
 }
