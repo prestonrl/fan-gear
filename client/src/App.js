@@ -6,6 +6,7 @@ import Login from './components/Login';
 import Signup from './components/Signup';
 import Detail from './components/Detail';
 import Cart from './components/Cart';
+import Success from './components/Success';
 
 
 
@@ -41,9 +42,10 @@ function App() {
               <Route exact path="/login" component={Login} />
               <Route exact path="/signup" component={Signup} />
               <Route exact path="/products/:id" component={Detail} />
+              <Route exact path="/success" component={Success} />
             </Switch>
+            <Cart />
           </StoreProvider>
-          <Cart />
         </div>
       </Router>
     </ApolloProvider>
