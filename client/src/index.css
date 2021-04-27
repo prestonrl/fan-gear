@@ -343,7 +343,7 @@ a {
   margin: auto;
   width: 70%;
   height: 100%;
-  margin-bottom: 200px;
+  margin-bottom: 50px;
   color: (66, 0, 0);
   border-bottom: 3px solid rgb(66, 0, 0);
 }
@@ -420,4 +420,5 @@ span {
 .center-image {
   margin-left: 25%;
   margin-right: 25%;
+  margin-bottom: 2%;
 }
