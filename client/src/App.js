@@ -6,8 +6,8 @@ import Login from './components/Login';
 import Signup from './components/Signup';
 import Detail from './components/Detail';
 import Cart from './components/Cart';
-
-
+import Success from './components/Success';
+import OrderHistory from './components/OrderHistory';
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { ApolloProvider } from '@apollo/react-hooks';
@@ -41,9 +41,11 @@ function App() {
               <Route exact path="/login" component={Login} />
               <Route exact path="/signup" component={Signup} />
               <Route exact path="/products/:id" component={Detail} />
+              <Route exact path="/success" component={Success} />
+              <Route exact path="/orderhistory" component={OrderHistory} />
             </Switch>
+            <Cart />
           </StoreProvider>
-          <Cart />
         </div>
       </Router>
     </ApolloProvider>
