@@ -36,14 +36,18 @@ function Signup(props) {
                 <div className="container">
                     <h1 className="text-color text-center Jones">Sign Up</h1>
                     <p className="Jones">Please fill in this form to create an account.</p>
-                    <label className="Jones" for="email"><b>Email:</b></label><br></br>
-                    <input type="text" className="input-s" placeholder="Enter Email" name="email" required onChange={handleChange}></input><br></br>
 
-                    <label className="Jones" for="psw"><b>Password:</b></label><br></br>
-                    <input type="password" className="input-s" placeholder="Enter Password" name="psw" required onChange={handleChange}></input><br></br>
+                    <label className="Jones" htmlFor="firstName"><b>First Name:</b></label><br></br>
+                    <input type="firstName" id="firstName" className="input-s" placeholder="Enter First Name" name="firstName" required onChange={handleChange}></input><br></br>
 
-                    <label className="Jones" for="psw-repeat"><b>Repeat Password:</b></label><br></br>
-                    <input type="password" className="input-s" placeholder="Repeat Password" name="psw-repeat" required onChange={handleChange}></input>
+                    <label className="Jones" htmlFor="lastName"><b>Last Name:</b></label><br></br>
+                    <input type="lastName" id="lastName" className="input-s" placeholder="Enter Last Name" name="lastName" required onChange={handleChange}></input><br></br>
+
+                    <label className="Jones" htmlFor="email"><b>Email:</b></label><br></br>
+                    <input type="email" id="email" className="input-s" placeholder="Enter Email" name="email" required onChange={handleChange}></input><br></br>
+
+                    <label className="Jones" htmlFor="psw"><b>Password:</b></label><br></br>
+                    <input type="password" id="pwd" className="input-s" placeholder="Enter Password" name="password" required onChange={handleChange}></input><br></br>
 
                     <Button className="btn" type="submit" value="submit">Sign Up</Button>
 

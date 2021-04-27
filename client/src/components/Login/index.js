@@ -33,11 +33,11 @@ function Login(props) {
                 <div className="container">
                     <h1 className="text-color text-center Jones">Login</h1>
 
-                    <label className="Jones" for="email"><b>Email:</b></label><br></br>
-                    <input type="text" className="input-s" placeholder="Enter Email" name="email" required onChange={handleChange}></input><br></br>
+                    <label className="Jones" htmlFor="email"><b>Email:</b></label><br></br>
+                    <input type="email" id="email" className="input-s" placeholder="Enter Email" name="email" required onChange={handleChange}></input><br></br>
 
-                    <label className="Jones" for="psw"><b>Password:</b></label><br></br>
-                    <input type="password" className="input-s" placeholder="Enter Password" name="psw" required onChange={handleChange}></input><br></br>
+                    <label className="Jones" htmlFor="pwd"><b>Password:</b></label><br></br>
+                    <input type="password" id="pwd" className="input-s" placeholder="Enter Password" name="password" required onChange={handleChange}></input><br></br>
 
                     {
                         error ? <div>
