@@ -5,6 +5,7 @@ import Home from './components/Home';
 import Login from './components/Login';
 import Signup from './components/Signup';
 import Detail from './components/Detail';
+import Cart from './components/Cart';
 
 
 
@@ -42,6 +43,7 @@ function App() {
               <Route exact path="/products/:id" component={Detail} />
             </Switch>
           </StoreProvider>
+          <Cart />
         </div>
       </Router>
     </ApolloProvider>
