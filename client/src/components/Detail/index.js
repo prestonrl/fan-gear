@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { useQuery } from "@apollo/react-hooks";
+import Button from 'react-bootstrap/Button';
 
 import { useStoreContext } from "../../utils/GlobalState";
 import {
@@ -83,32 +84,34 @@ function Detail() {
   return (
     <>
       {currentProduct && cart ? (
-        <div className="container my-1">
-          <Link to="/">← Back to Products</Link>
+        <div className=" form-p my-1">
+          <Link className="flex-row space-between btn Jones" to="/">← Back to Products</Link><br></br>
 
-          <h2>{currentProduct.name}</h2>
+          <img className="flex-row"
+            src={`/images/${currentProduct.image}`}
+            alt={currentProduct.name}
+          />
 
-          <p>{currentProduct.description}</p>
+          <h1 className="Jones underline-2">{currentProduct.name}</h1>
+
+          <p className="text-center">{currentProduct.description}</p>
 
           <p>
-            <strong>Price:</strong>${currentProduct.price}{" "}
-            <button onClick={addToCart}>Add to Cart</button>
-            <button
+            <strong>Price:</strong>${currentProduct.price}{" "}<br></br>
+            <Button className="Jones" onClick={addToCart}>Add to Cart</Button>
+            <Button className="Jones"
               disabled={!cart.find((p) => p._id === currentProduct._id)}
               onClick={removeFromCart}
             >
               Remove from Cart
-            </button>
+            </Button>
           </p>
 
-          <img
-            src={`/images/${currentProduct.image}`}
-            alt={currentProduct.name}
-          />
+
         </div>
       ) : null}
       {loading ? <img src={spinner} alt="loading" /> : null}
-     
+    
     </>
   );
 }

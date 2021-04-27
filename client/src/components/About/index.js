@@ -8,7 +8,7 @@ function About() {
                         <h1 id="about" className="text-color Jones about-styling">About us</h1>
                         
             <div className="form-a">
-                <p className="text-color text-center Jones">
+                <p className="text-color Jones">
                 Filler text
                 </p>
             </div>
