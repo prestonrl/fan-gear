@@ -83,7 +83,7 @@ db.once('open', async () => {
             category: categories[1]._id,
             description:
                 'Correct lambskin leather -color and texture- or "Chocolate Premium Horsehide", correct lining, correct zipper, snaps and buckles, and distressing if wanted.',
-            image: 'crusade-jacket.jpg',
+            image: 'crusade-jacket.JPG',
             price: 525.00,
             quantity: 100
         },
