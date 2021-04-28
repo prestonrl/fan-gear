@@ -1,5 +1,6 @@
 import React from 'react';
 import Nav from './components/Nav';
+import Testimonials from './components/Testimonials';
 import About from './components/About';
 import Home from './components/Home';
 import Login from './components/Login';
@@ -38,6 +39,7 @@ function App() {
             <Switch>
               <Route exact path="/" component={Home} />
               <Route exact path="/about" component={About} />
+              <Route exact path="/testimonials" component={Testimonials}/>
               <Route exact path="/login" component={Login} />
               <Route exact path="/signup" component={Signup} />
               <Route exact path="/products/:id" component={Detail} />

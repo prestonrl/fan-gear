@@ -19,6 +19,11 @@ function Nav(props) {
                         </Link>
                     </li>
                     <li className="mx-1">
+                        <Link to="/testimonials">
+                            Testimonials
+                        </Link>
+                    </li>
+                    <li className="mx-1">
                         <Link to="/orderHistory">
                             Order History
                         </Link>
@@ -42,6 +47,11 @@ function Nav(props) {
                     <li className="mx-1">
                         <Link to="/about">
                             About
+                        </Link>
+                    </li>
+                    <li className="mx-1">
+                        <Link to="/testimonials">
+                            Testimonials
                         </Link>
                     </li>
                     <li className="mx-1">

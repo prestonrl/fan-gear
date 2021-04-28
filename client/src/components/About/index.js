@@ -24,14 +24,14 @@ function About() {
                 <img className="center-image-2" src={about1} alt=""></img>
             </div>
 
-            <div className="form-a about-section">
+            <div className="form-a info-sections">
                 <div className="about-paragraphs">
                     <p className="text-color Jones">
                     Our goal is to offer the best possible products at the most reasonable price, 
                     that should be high quality and also long lasting pieces of gear.
                     </p>
 
-                    <p className="text-colorJones">
+                    <p className="text-color Jones">
                     We started enjoying this hobby in 2006 through the ‘Comunidad Fan Española de Indiana Jones’ Forum, 
                     trying to make hats that look like those seen in the movies, but that should also be durable and offered at the lowest price 
                     possible. Since then, the “Explorador” fedora has been our best seller, which has been improved along time 
@@ -42,7 +42,8 @@ function About() {
                     Live the adventure of your life, with your <span>EXPLORADOR</span> fedora!
                     </p>
                 </div>
-                    <img className="float-image center-image" src={about6} alt=""></img>
+                
+                <img className="float-image center-image" src={about6} alt=""></img>
             </div>
 
             <div className=" flex-row center-image">
