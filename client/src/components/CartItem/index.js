@@ -2,6 +2,7 @@ import React from 'react';
 import { useStoreContext } from '../../utils/GlobalState';
 import { REMOVE_FROM_CART, UPDATE_CART_QUANTITY } from '../../utils/actions';
 import { idbPromise } from '../../utils/helpers';
+import { AiOutlineDelete } from 'react-icons/ai';
 
 const CartItem = ({ item }) => {
     const [, dispatch] = useStoreContext();
@@ -44,10 +45,10 @@ const CartItem = ({ item }) => {
                 />
             </div>
             <div>
-                <div>{item.name}, ${item.price}</div>
+                <div className="Jones">{item.name}, ${item.price}</div>
                 <div>
-                    <span>Qty:</span>
-                    <input
+                    <span className="Jones">Qty:</span>
+                    <input 
                         type="number"
                         placeholder="1"
                         value={item.purchaseQuantity}
@@ -58,7 +59,7 @@ const CartItem = ({ item }) => {
                         aria-label="trash"
                         onClick={() => removeFromCart(item)}
                     >
-                        🗑️
+                        <AiOutlineDelete />
                     </span>
                 </div>
             </div>
