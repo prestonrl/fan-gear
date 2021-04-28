@@ -19,7 +19,6 @@ function Success() {
                     idbPromise('cart', 'delete', item);
                 });
             }
-
             setTimeout(() => {
                 window.location.assign('/');
             }, 3000);
@@ -29,12 +28,12 @@ function Success() {
     }, [addOrder]);
 
     return (
-        <div>
-            <h1>Success!</h1>
-            <h2>
+        <div className="text-middle">
+            <h1 className="Jones">Success!</h1>
+            <h2 className="Jones">
                 Thank you for your purchase!
                 </h2>
-            <h2>
+            <h2 className="Jones">
                 You will now be redirected to the home page
                 </h2>
         </div>
