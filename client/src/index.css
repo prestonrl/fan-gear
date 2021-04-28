@@ -497,9 +497,8 @@ span {
   height: 550px;
   width: 450px;
   margin-top: 10px;
-  padding-left: 30px;
-  margin-left: 20px;
-  margin-right: 60px;
+  margin-left: 5%;
+  margin-right: 5%;
   margin-bottom: 10px;
   border: .5px solid rgb(66, 0, 0);
   border-radius: 5px;
@@ -542,11 +541,16 @@ span {
   color: #F3A847;
 }
 
-.testimonial-images {
-  margin: 2.5%;
-  width: 100%;
-  background-color: #f8eded;
-  border: .5px solid rgb(66, 0, 0);
-  border-radius: 5px;
-  box-shadow: 3px 5px darkgray;
+.testimonial-title {
+  border-bottom: 3px solid rgb(66, 0, 0);
+  padding: 0 0 .5% .5%;
+}
+
+.testimonial-text {
+  padding: 1%;
+}
+
+.testimonial-subtitle {
+  padding: 0 2% 1% 2%;
+  font-style: italic;
 }
