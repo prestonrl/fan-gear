@@ -8,7 +8,7 @@ An improved e-commerce site to allow bespoke makers of Indiana Jones gear to sel
 </br></br>
 
 ---
-![image]()
+![image](https://user-images.githubusercontent.com/71798106/116331408-ef7ae200-a78c-11eb-8351-9789486a6643.png)
 ## Table of Contents
 
 - [Usage and Installation](#Usage-and-Installation)
@@ -22,7 +22,7 @@ An improved e-commerce site to allow bespoke makers of Indiana Jones gear to sel
 
 ## Usage and Installation
 
-Click [HERE]() for a link to the deployed application.
+Click [HERE](https://fan-gear.herokuapp.com/) for a link to the deployed application.
 
 Alternatively, you can run the application locally:
 

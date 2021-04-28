@@ -8,6 +8,7 @@ import { TOGGLE_CART, ADD_MULTIPLE_TO_CART } from '../../utils/actions';
 import { QUERY_CHECKOUT } from '../../utils/queries';
 import { loadStripe } from '@stripe/stripe-js';
 import { useLazyQuery } from '@apollo/react-hooks';
+import { AiOutlineShoppingCart } from 'react-icons/ai';
 
 const stripePromise = loadStripe('pk_test_TYooMQauvdEDq54NiTphI7jx')
 
@@ -39,7 +40,7 @@ const Cart = () => {
             <div className="cart-closed" onClick={toggleCart}>
                 <span
                     role="img"
-                    aria-label="trash">🛒</span>
+                    ><AiOutlineShoppingCart /></span>
             </div>
         );
     }
@@ -73,18 +74,18 @@ const Cart = () => {
 
     return (
         <div className="cart">
-            <div className="close" onClick={toggleCart}>[close]</div>
-            <h2>Shopping Cart</h2>
+            <div className="close Jones" onClick={toggleCart}>[close]</div>
+            <h2 className="Jones">Shopping Cart</h2>
             {state.cart.length ? (
                 <div>
                     {state.cart.map(item => (
                         <CartItem key={item._id} item={item} />
                     ))}
-                    <div className="flex-row space-between">
+                    <div className="flex-row space-between Jones">
                         <strong>Total: ${calculateTotal()}</strong>
                         {
                             Auth.loggedIn() ?
-                                <button onClick={submitCheckout}>
+                                <button className="Jones cart-button" onClick={submitCheckout}>
                                     Checkout
                                 </button>
                                 :
@@ -94,9 +95,6 @@ const Cart = () => {
                 </div>
             ) : (
                 <h3>
-                    <span role="img" aria-label="shocked">
-                        😱
-                    </span>
                     You haven't added anything to your cart yet!
                 </h3>
             )}
