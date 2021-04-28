@@ -41,7 +41,7 @@ function ProductItem(item) {
     }
 
     return (
-        <div className="card px-1 py-1 text-color Jones product-styling">
+        <div className="card px-1 py-1 text-color img-center Jones product-styling">
             <Link to={`/products/${_id}`}>
                 <img
                     alt={name}
