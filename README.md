@@ -75,6 +75,8 @@ Indiana Jones Gear was built primarily utilizing HTML, CSS, and JS, as well as t
 
 #### LinkedIn: https://www.linkedin.com/in/dave-b-15027a1b8/
 
+<br>
+
 ### Hunter Strunk
 
 #### GitHub Profile: https://github.com/hunterstrunk
