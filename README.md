@@ -22,7 +22,7 @@ An improved e-commerce site to allow bespoke makers of Indiana Jones gear to sel
 
 ## Usage and Installation
 
-Click [HERE]() for a link to the deployed application.
+Click [HERE](https://fan-gear.herokuapp.com/) for a link to the deployed application.
 
 Alternatively, you can run the application locally:
 
