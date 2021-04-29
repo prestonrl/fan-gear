@@ -562,11 +562,10 @@ span {
 }
 
 .about-paragraphs {
-  padding-top: 15%;
-  color: #F3A847;
+  padding-top: 10%;
 }
 
-.testimonial-title {
+.section-title {
   border-bottom: 3px solid rgb(66, 0, 0);
   padding: 0 0 .5% .5%;
 }
