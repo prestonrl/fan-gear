@@ -1,6 +1,7 @@
 import React from "react";
 import Auth from "../../utils/auth";
 import { Link } from "react-router-dom";
+import logoImg from '../../assets/raiders-hat-logo.png';
 
 function Nav(props) {
 
@@ -74,7 +75,7 @@ function Nav(props) {
         <header className="flex-row space-between px-2 header-color Jones">
             <h1>
                 <Link  className="Jones" to="/">
-                    <span role="img" aria-label="shopping bag">🧥</span>
+                    <img className="logo-img" src={logoImg} alt=""></img>
                     Steele & Jones
                 </Link>
             </h1>

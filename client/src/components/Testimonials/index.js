@@ -7,7 +7,7 @@ function Testimonials() {
 
             <div className="form-a info-sections">
                 <div>
-                    <h3 className='text-color Jones testimonial-title'>Cazadora '36</h3>
+                    <h3 className='text-color Jones section-title'>Cazadora '36</h3>
 
                     <p className='testimonial-text'>
                     "Since 2006 I've owned quite a number of Indiana Jones Jackets from other manufacturers. 
@@ -29,7 +29,7 @@ function Testimonials() {
 
             <div className="form-a info-sections">
                 <div>
-                    <h3 className='text-color Jones testimonial-title'>Explorador #1 (Raiders)</h3>
+                    <h3 className='text-color Jones section-title'>Explorador #1 (Raiders)</h3>
     
                     <p className='testimonial-text'>
                     "What can I say. FANTASTIC !!!!!! Thank you very, very, very much Harry and Indiego. 
@@ -43,7 +43,7 @@ function Testimonials() {
 
             <div className="form-a info-sections">
                 <div>
-                    <h3 className='text-color Jones testimonial-title'>Explorador #67 (Crusade)</h3>
+                    <h3 className='text-color Jones section-title'>Explorador #67 (Crusade)</h3>
     
                     <p className='testimonial-text'>
                     "I'm speechless. So i will proceed to a breakdown of pros and cons of this fedora: PROS:
@@ -61,7 +61,7 @@ function Testimonials() {
 
             <div className="form-a info-sections">
                 <div>
-                    <h3 className='text-color Jones testimonial-title'>Explorador #16 (Skull)</h3>
+                    <h3 className='text-color Jones section-title'>Explorador #16 (Skull)</h3>
     
                     <p className='testimonial-text'>
                     "...the hat perfectly pass thru a "completely wet"... raindrops fell from it, dripping all over 
@@ -78,7 +78,7 @@ function Testimonials() {
 
             <div className="form-a info-sections">
                 <div>
-                    <h3 className='text-color Jones testimonial-title'>Explorador #49 (Raiders)</h3>
+                    <h3 className='text-color Jones section-title'>Explorador #49 (Raiders)</h3>
     
                     <p className='testimonial-text'>
                     "Thanks for everything, Harry and Indiego. You have sign and everything inside the felt! 
@@ -92,7 +92,7 @@ function Testimonials() {
 
             <div className="form-a info-sections">
                 <div>
-                    <h3 className='text-color Jones testimonial-title'>Explorador #70 (Raiders)</h3>
+                    <h3 className='text-color Jones section-title'>Explorador #70 (Raiders)</h3>
     
                     <p className='testimonial-text'>
                     "Harry & Indiego, thanks for a job very well done"
@@ -105,7 +105,7 @@ function Testimonials() {
 
             <div className="form-a info-sections">
                 <div>
-                    <h3 className='text-color Jones testimonial-title'>Explorador #71 (Raiders)</h3>
+                    <h3 className='text-color Jones section-title'>Explorador #71 (Raiders)</h3>
     
                     <p className='testimonial-text'>
                     "I want to thank alot to Harry and Diego. The hat is excellent, exceeded my expectations, thank you very much indeed ....
@@ -119,7 +119,7 @@ function Testimonials() {
 
             <div className="form-a info-sections ">
                 <div>
-                    <h3 className='text-color Jones testimonial-title'>Explorador #10 (Raiders)</h3>
+                    <h3 className='text-color Jones section-title'>Explorador #10 (Raiders)</h3>
     
                     <p className='testimonial-text'>
                     "...it's great really have no words to describe it, is more, is what always had tried to find 
@@ -136,7 +136,7 @@ function Testimonials() {
 
             <div className="form-a info-sections">
                 <div>
-                    <h3 className='text-color Jones testimonial-title'>Explorador #12 (Raiders)</h3>
+                    <h3 className='text-color Jones section-title'>Explorador #12 (Raiders)</h3>
     
                     <p className='testimonial-text'>
                     "I've got it! Damn, it's a realy cool hat. When I try it, I have to pull down the brim, 
@@ -152,7 +152,7 @@ function Testimonials() {
 
             <div className="form-a info-sections ">
                 <div>
-                    <h3 className='text-color Jones testimonial-title'>Explorador #11 (Raiders)</h3>
+                    <h3 className='text-color Jones section-title'>Explorador #11 (Raiders)</h3>
     
                     <p className='testimonial-text'>
                     "I can say now after a week than I have it, that this hat more than fulfilled everything I could expected ... is soft and very floppy."
@@ -165,7 +165,7 @@ function Testimonials() {
 
             <div className="form-a info-sections">
                 <div>
-                    <h3 className='text-color Jones  testimonial-title'>Explorador #29 (Raiders)</h3>
+                    <h3 className='text-color Jones  section-title'>Explorador #29 (Raiders)</h3>
     
                     <p className='testimonial-text'>
                     "I want to add that it's an absolutely all purpose hat, I have used under several drizzles 
@@ -180,7 +180,7 @@ function Testimonials() {
 
             <div className="form-a info-sections">
                 <div>
-                    <h3 className='text-color Jones  testimonial-title'>Explorador #59 (Raiders)</h3>
+                    <h3 className='text-color Jones  section-title'>Explorador #59 (Raiders)</h3>
     
                     <p className='testimonial-text'>
                     "I trusted my first fedora to Harry and Indiego, an '36 Explorador bashed according to "Hovito's 

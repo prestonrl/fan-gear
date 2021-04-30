@@ -15,6 +15,7 @@ function About() {
             <h2 className="text-color Jones title-styling">"Hecho por fans, para fans"</h2>
 
             <div className="form-a">
+                <h3 className="text-color Jones section-title">Our Story</h3>
                 <p className="text-color Jones">
                 We are Roberto (Architect) and Diego (Travel Agent), both fans of the Indiana Jones character. 
                 We work and live in Argentina. We are not professional hatmakers, but a couple of friends which make this as a hobby, 
@@ -26,6 +27,8 @@ function About() {
 
             <div className="form-a info-sections">
                 <div className="about-paragraphs">
+                    <h3 className="text-color Jones section-title">Our Goals</h3>
+
                     <p className="text-color Jones">
                     Our goal is to offer the best possible products at the most reasonable price, 
                     that should be high quality and also long lasting pieces of gear.
@@ -41,6 +44,7 @@ function About() {
                     <p className="text-color Jones">
                     Live the adventure of your life, with your <span>EXPLORADOR</span> fedora!
                     </p>
+
                 </div>
                 
                 <img className="float-image center-image" src={about6} alt=""></img>
