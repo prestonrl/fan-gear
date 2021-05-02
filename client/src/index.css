@@ -582,3 +582,9 @@ span {
 .logo-img {
   width: 15%;
 }
+
+@media screen and (max-width: 768px) {
+  .card {
+    width: 100%;
+  }
+}
