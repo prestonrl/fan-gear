@@ -7,6 +7,10 @@
 An improved e-commerce site to allow bespoke makers of Indiana Jones gear to sell their products to fans. 
 </br></br>
 
+## Disclaimer 
+
+This project was a modernization of the [Steele & Jones](http://www.steele-jones.com.ar/it/home.htm) website. All images and text are property of the original website. No copyright infringment is intended. Anyone seeking to order an actual product should contact the owners of the original Steele & Jones site.
+</br></br>
 ---
 ![image](https://user-images.githubusercontent.com/71798106/116331408-ef7ae200-a78c-11eb-8351-9789486a6643.png)
 ## Table of Contents
@@ -48,7 +52,11 @@ Indiana Jones Gear was built primarily utilizing HTML, CSS, and JS, as well as t
 
 ## Ongoing and Future Development
 
-- 
+- Inputs for custom sizing measurments
+- Page to leave reviews
+- Current tab highlighted
+- Product category filter
+- Forgot password page
   </br></br></br>
 
 ## Team
